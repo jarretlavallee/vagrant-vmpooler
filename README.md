@@ -16,7 +16,7 @@ vagrant-vmpooler is still a work in progress and a lot of things might not work 
 
 ### Quick Start
 
-To quickly get started, install the vagrant plugin with the command below. Then you'll want to add a dummy box from the [example_box](example_box) directory...finally create a Vagrantfile and run the up command with the `vmpooler` provider.
+To quickly get started, install the vagrant plugin with the command below. If you are using Vagrant lower than 1.6.0, you'll want to add a dummy box from the [example_box](example_box) directory...finally create a Vagrantfile and run the up command with the `vmpooler` provider.
 
 ```
 $ vagrant plugin install vagrant-vmpooler

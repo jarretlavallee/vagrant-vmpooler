@@ -25,6 +25,10 @@ module VagrantPlugins
         require_relative 'provider'
         Provider
       end
+
+      def self.config_builder_hook
+        require_relative 'config_builder'
+      end
     end
   end
 end
